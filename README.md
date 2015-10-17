@@ -1,21 +1,22 @@
 # demo-angularjs-bootstrap-nwapp
 NW App is a demo app based on AngularJs and Bootstrap. NW App provides basic and simple CRM management features. 
 
+```
 NW Demo App 
-|
--- Dashboard 
+      |-- Dashboard 
            |-- New messages
            |-- Sales chart
            |-- 
-|-- Sales management 
+      |-- Sales management 
            |-- New order 
            |-- Update order 
-|-- Inventory management 
+      |-- Inventory management 
            |-- New product 
            |-- Update product
-|-- Report
+      |-- Report
           
-|-- Setting   
-         |-- Profile setting
-         |-- Report setting
-             |-- Admin tool ( optional ) 
+      |-- Setting   
+           |-- Profile setting
+           |-- Report setting
+           |-- Admin tool ( optional ) 
+`            
