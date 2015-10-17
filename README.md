@@ -19,4 +19,16 @@ NW Demo App
            |-- Profile setting
            |-- Report setting
            |-- Admin tool ( optional ) 
-`            
+
+Data Structure: 
+      Customer * <--> * Order *<-->1 OrderDetail 1<-->1 Product 
+
+      Order 1<-->1 Employee 1 <-> 1 Team
+
+      Order 1<-->1 Shipper
+
+      Product 1<-->1 Supplier 
+
+      Product 1<-->1 Category
+
+      Order *<-->1 OrderDetail      
