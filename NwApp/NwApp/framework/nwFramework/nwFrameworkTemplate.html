@@ -1,0 +1,37 @@
+
+<div class="nw-title-bar">
+    <div class="row">
+        <div class="nw-logo-area col-sm-6">
+            <img class="nw-icon" ng-src="{{ logoFile }}" />
+            <div class="nw-title-area">
+                <p class="nw-logo-title">{{ title }}</p>
+                <p class="nw-logo-subtitle">{{ subtitle }}</p>
+            </div>
+
+            <div ng-if="isMenuButtonVisible" ng-click="menuButtonClicked()"
+                 class="nw-collapsed-menu pull-right">
+                <button type="button" class="btn nw-nav-button">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="nw-right-side-controls col-sm-6">
+             <!-- <nw-user-profile-small></nw-user-profile-small> -->
+        </div>
+    </div>
+</div>
+
+<div class="nw-menu-area"
+     ng-show="isMenuVisible"
+     ng-class="{'nw-menu-area-vertical': isMenuVertical, 'nw-menu-area-horizontal': !isMenuVertical}">
+<!--     <nw-user-profile></nw-user-profile>
+    -->
+
+     <ng-transclude></ng-transclude>
+</div>
+
+<div ng-view class="nw-view"
+     ng-class="{'nw-view-full-width': !isMenuVertical || !isMenuVisible}">
+</div>

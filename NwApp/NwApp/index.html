@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html ng-app="nwApp">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <!--  styles -->
+    <link href="app/nwApp.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="framework/nwFramework/nwFramework.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="framework/nwDashboard/nwDashboard.css" rel="stylesheet" />
+    <link href="framework/nwMenu/nwMenu.css" rel="stylesheet" />
+    <link href="framework/nwList/nwList.css" rel="stylesheet" />
+    <link href="Content/angular-gridster.min.css" rel="stylesheet" />
+    <link href="app/widgets/nwaEmployee/nwaEmployee.css" rel="stylesheet" />
+    <link href="app/widgets/nwaInventory/nwaInventory.css" rel="stylesheet" />
+    <link href="app/widgets/nwaOrder/nwaOrder.css" rel="stylesheet" />
+    <link href="Content/ui-grid.min.css" rel="stylesheet" />
+    <!--<link href="Content/ui-grid-stable.css" rel="stylesheet" />-->
+    <!-- lib  scritps -->
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/angular-gridster.min.js"></script>
+    <script src="Scripts/angular-touch.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/lodash.min.js"></script>
+    <script src="Scripts/ui-bootstrap-tpls.min.js"></script>
+    <script src="Scripts/ui-bootstrap.min.js"></script>
+    <script src="Scripts/ngStorage.min.js"></script>
+    <script src="Scripts/ui-grid.min.js"></script>
+    <!-- app  scritps -->
+    <script src="app/nwApp.js"></script>
+    <script src="framework/nwDashboard/nwDashboard.js"></script>
+    <script src="framework/nwMenu/nwMenu.js"></script>
+    <script src="framework/nwFramework/nwFramework.js"></script>
+    <script src="framework/nwMenu/nwMenuController.js"></script>
+    <script src="framework/nwMenu/nwMenuDirective.js"></script>
+    <script src="framework/nwMenu/nwMenuItemDirective.js"></script>
+    <script src="framework/nwMenu/nwMenuGroupDirective.js"></script>
+    <script src="framework/nwDashboard/nwDashboardDirective.js"></script>
+    <script src="framework/nwDashboard/nwWidgetDirective.js"></script>
+    <script src="framework/nwList/nwList.js"></script>
+    <script src="framework/nwList/nwListController.js"></script>
+    <script src="framework/nwList/nwListDirective.js"></script>
+    <script src="framework/nwFramework/nwFrameworkController.js"></script>
+    <script src="framework/nwFramework/nwFrameworkDirective.js"></script>
+    <script src="app/services/dataService.js"></script>
+    <script src="app/widgets/nwaInventory/nwaInventoryDirective.js"></script>
+    <script src="app/widgets/nwaEmployee/nwaEmployeeDirective.js"></script>
+    <script src="app/widgets/nwaOrder/nwaOrderDirective.js"></script>
+    <script src="app/dialogs/nwaSelectEmployeeController.js"></script>
+    <script src="app/dialogs/nwaSelectLocationController.js"></script>
+    <script src="app/directives/nwaDashboardDirective.js"></script>
+    <script src="app/directives/nwaSalesDirective.js"></script>
+    <script src="app/directives/nwaLocationsDirective.js"></script>
+</head>
+
+<body class="container-fluid">
+    <nw-framework title="NW App" subtitle="Demo Only" logo-file="images/logo_nwapp_48.png">
+        <nw-menu>
+            <nw-menu-item label="Dashboard" icon="fa-dashboard" route="dashboard"></nw-menu-item>
+            <nw-menu-item label="Sale" icon="fa-shopping-cart" route="sale"></nw-menu-item>
+            <nw-menu-item label="Inventory" icon="fa-cubes" route="inventory"></nw-menu-item>
+            <nw-menu-item label="Report" icon="fa-bar-chart" route="report"></nw-menu-item>
+            <nw-menu-group label="Setting" icon="fa-gears">
+                <nw-menu-item label="Profile setting" icon="fa-unlink" route="rafts"></nw-menu-item>
+                <nw-menu-item label="Report setting" icon="fa-magic" route="paddles"></nw-menu-item>
+                <nw-menu-item label="Admin" icon="fa-life-ring" route="vests"></nw-menu-item>
+            </nw-menu-group>
+        </nw-menu>
+    </nw-framework>
+</body>
+
+</html>

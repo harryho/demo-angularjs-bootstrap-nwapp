@@ -1,0 +1,10 @@
+<div>
+    <ul class="nw-menu" ng-transclude></ul>
+    <a class="btn nw-menu-layout-button"
+       ng-show="allowHorizontalToggle"
+       ng-class="{'nw-layout-button-horizontal': !isVertical}"
+       ng-click="toggleMenuOrientation()">
+        <i class="fa"
+           ng-class="{'fa-chevron-up': isVertical, 'fa-chevron-left': !isVertical}"></i>
+    </a>
+</div>

@@ -1,0 +1,9 @@
+
+<li class="nw-selectable-item" ng-class="{'nw-item-horizontal': !isVertical()}">
+    <div class="nw-noselect">
+        <i class="fa {{icon}} nw-menu-icon"></i>
+        {{label}}
+    </div>
+    <i ng-if="isActive() && isVertical()"
+       class="fa fa-2x fa-caret-left nw-menu-active-indicator"></i>
+</li>

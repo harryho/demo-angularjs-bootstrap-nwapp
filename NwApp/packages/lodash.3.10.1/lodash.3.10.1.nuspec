@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>lodash</id>
+    <version>3.10.1</version>
+    <title>Lo-Dash</title>
+    <authors>John-David Dalton</authors>
+    <owners>John-David Dalton</owners>
+    <licenseUrl>https://github.com/lodash/lodash/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/lodash/lodash</projectUrl>
+    <iconUrl>http://lodash.com/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A utility library delivering consistency, modularity, performance, &amp; extras.</description>
+    <releaseNotes>For new environments like Chrome, Firefox, IE ≥ 9, &amp; Safari ≥ 5.1</releaseNotes>
+    <tags>lodash lo-dash underscore.js</tags>
+  </metadata>
+</package>

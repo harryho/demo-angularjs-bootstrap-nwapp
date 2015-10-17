@@ -1,0 +1,123 @@
+﻿
+.nw-menu-area {
+    position: relative;
+    background-color:  #032238; //#333;
+    color: #ccc;
+    padding-left: 0;
+}
+
+.nw-menu-area-vertical {
+    float: left;
+    width: 200px;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+.nw-menu-area-horizontal {
+    width: 100%;
+    height: 40px;
+}
+
+.nw-menu-area ul {
+    padding-left: 0;
+}
+
+.nw-menu-area .btn:hover {
+    color: #ccc;
+}
+
+.nw-menu {
+    list-style-type: none;
+    vertical-align: top;
+}
+
+.nw-menu ul {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nw-menu li {
+    line-height: 3em;
+    cursor: pointer;
+}
+
+.nw-menu li div {
+    display: inline-block;
+    width: 90%;
+    padding-left: 16px;
+}
+
+.nw-selectable-item:hover {
+    background-color: #555;
+}
+
+.nw-menu-icon {
+    margin-right: 10px;
+}
+
+.nw-menu-active-indicator {
+    float: right;
+    color: #ddd;
+    margin-right: 0;
+    margin-top: 8px;
+}
+
+.nw-noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nw-group-indicator-left {
+    float: right;
+    color: #ddd;
+    margin-right: 2px;
+    margin-top: 15px;
+}
+
+.nw-subitem-section {
+    padding-left: 16px;
+}
+
+.nw-menu-layout-button {
+    margin: 12px;
+    padding: 2px 8px;
+    color: #bbb;
+    background-color: #333;
+    border: 1px solid #999;
+}
+
+.nw-layout-button-horizontal {
+    position: absolute;
+    top: -6px;
+    right: 10px;
+}
+
+.nw-item-horizontal {
+    display: inline-block;
+    width: 165px !important;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 1.5em !important;
+}
+
+.nw-popup-menu {
+    position: absolute;
+    z-index: 1000;
+    background-color: #333;
+    width: 200px;
+    padding-left: 0;
+}
+
+.nw-fade-in-animation {
+    -moz-transition: linear all 0.5s;
+    -o-transition: linear all 0.5s;
+    -webkit-transition: linear all 0.5s;
+    transition: linear all 0.5s;
+}
+.nw-fade-in-animation.ng-hide {
+    opacity: 0;
+}

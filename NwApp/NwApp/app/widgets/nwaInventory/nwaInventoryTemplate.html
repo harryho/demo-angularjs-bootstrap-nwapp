@@ -1,0 +1,37 @@
+﻿
+<div class="nwa-inventory-widget">
+
+    <div class="nwa-inventory-heading">
+        <img class="nwa-inventory-icon" ng-src="images/inventory-icon.png" alt="inventory" />
+        <span class="www-inventory-title"> &nbsp; Product Update</span>
+    </div>
+
+    <div class="nwa-inventory-body" >
+        <div class="nwa-inventory-area">
+
+            <div class="nwa-inventory-river-name">
+                {{ selectedLocation.name }}
+            </div>
+
+            <div class="nwa-inventory-item">
+                <img src="/nwapp/images/guide-icon.png" />
+                <span class="nwa-inventory-amount">{{selectedLocation.guides}}</span>
+                <span class="nwa-inventory-caption">GUIDES</span>
+            </div>
+            <div class="nwa-inventory-item">
+                <img src="/nwapp/images/vest-icon.png" />
+                <span class="nwa-inventory-amount">{{selectedLocation.vests}}</span>
+                <span class="nwa-inventory-caption">VESTS</span>
+            </div>
+            <div class="nwa-inventory-item">
+                <img src="/nwapp/images/raft-icon.png" />
+                <span class="nwa-inventory-amount">{{selectedLocation.rafts}}</span>
+                <span class="nwa-inventory-caption">RAFTS</span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+

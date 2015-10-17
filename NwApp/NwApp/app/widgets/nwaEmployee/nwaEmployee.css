@@ -1,0 +1,59 @@
+﻿.nwa-employee-widget {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+  
+   
+}
+
+.nwa-employee-heading {
+    background-color: darkorange;
+    color: darkblue;
+    height: 32px;
+    padding-top: 2px;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.nwa-employee-body {
+    display: table;
+    background-color: lemonchiffon;
+    color: darkblue;
+    width: 100%;
+    height: 100%;
+}
+
+.nwa-employee-row {
+    display: table-row;
+}
+
+.nwa-employee-icon {
+    height: 24px;
+    width: 24px;
+    margin-top: -3px;
+    margin-left: 3px;
+}
+
+.nwa-employee-name-area {
+    display: table-cell;
+    width: 180px;
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.nwa-employee-name-area h4 {
+    margin-bottom: 4px;
+    font-size: 10px;
+}
+
+.nwa-employee-name-area p {
+    font-size: 20px;
+}
+
+.nwa-employee-picture-area {
+    display: table-cell;
+    background-size: cover;
+    background-position: center;
+}

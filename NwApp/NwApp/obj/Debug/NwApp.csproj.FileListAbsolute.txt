@@ -1,0 +1,5 @@
+C:\ws\hit\demo-angularjs\NwApp\NwApp\bin\NwApp.dll.config
+C:\ws\hit\demo-angularjs\NwApp\NwApp\bin\NwApp.dll
+C:\ws\hit\demo-angularjs\NwApp\NwApp\bin\NwApp.pdb
+C:\ws\hit\demo-angularjs\NwApp\NwApp\obj\Debug\NwApp.dll
+C:\ws\hit\demo-angularjs\NwApp\NwApp\obj\Debug\NwApp.pdb
