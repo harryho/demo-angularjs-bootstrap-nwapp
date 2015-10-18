@@ -34,8 +34,17 @@ Data Structure:
       Order *<-->1 OrderDetail      
 ```
 
+---
+
+
 Snapshots
+
+#Web or PC snapshot
 
 ![Web snapshot](https://github.com/harryho/demo-angularjs-bootstrap-nwapp/blob/master/snapshots/demo-ng-boot-web.PNG)
 
+#Tablet snapshot
+![Tablet snapshot](https://github.com/harryho/demo-angularjs-bootstrap-nwapp/blob/master/snapshots/demo-ng-boot-tablet.PNG)
+
+#Mobile snapshot
 ![Mobile snapshot](https://github.com/harryho/demo-angularjs-bootstrap-nwapp/blob/master/snapshots/demo-ng-boot-mobile.PNG)
