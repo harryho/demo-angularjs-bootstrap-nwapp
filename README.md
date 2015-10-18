@@ -32,3 +32,8 @@ Data Structure:
       Product 1<-->1 Category
 
       Order *<-->1 OrderDetail      
+```
+
+Snapshots
+
+(https://github.com/harryho/demo-angularjs-bootstrap-nwapp/tree/master/snapshots)
