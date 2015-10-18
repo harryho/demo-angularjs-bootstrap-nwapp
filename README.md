@@ -36,4 +36,4 @@ Data Structure:
 
 Snapshots
 
-(https://github.com/harryho/demo-angularjs-bootstrap-nwapp/tree/master/snapshots)
+![Mobile snapshot](https://github.com/harryho/demo-angularjs-bootstrap-nwapp/blob/master/snapshots/demo-ng-boot-mobile.PNG)
