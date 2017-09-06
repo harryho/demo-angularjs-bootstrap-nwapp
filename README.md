@@ -1,5 +1,6 @@
 # dotnet-angularjs-bootstrap-nwapp
-NW App is a demo app based on AngularJs and Bootstrap. NW App is built with .Net solution, and it provides basic and simple CRM management features. 
+
+NW App is a demo app based on AngularJs 1.x and Bootstrap 3. NW App is built with .Net solution, and it provides basic and simple CRM management features. 
 
 ```
 NW Demo App 
