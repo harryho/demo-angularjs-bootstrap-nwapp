@@ -38,14 +38,16 @@ Data Structure:
 ---
 
 
-Snapshots
+## Snapshots
 
-#Web or PC snapshot
+### Web or PC snapshot
 
 ![Web snapshot](https://github.com/harryho/demo-angularjs-bootstrap-nwapp/blob/master/snapshots/demo-ng-boot-web.PNG)
 
-#Tablet snapshot
+### Tablet snapshot
+
 ![Tablet snapshot](https://github.com/harryho/demo-angularjs-bootstrap-nwapp/blob/master/snapshots/demo-ng-boot-tablet.PNG)
 
-#Mobile snapshot
+### Mobile snapshot
+
 ![Mobile snapshot](https://github.com/harryho/demo-angularjs-bootstrap-nwapp/blob/master/snapshots/demo-ng-boot-mobile.PNG)
