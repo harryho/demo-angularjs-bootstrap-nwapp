@@ -35,7 +35,7 @@ Data Structure:
       Order *<-->1 OrderDetail      
 ```
 
----
+
 
 
 ## Snapshots
